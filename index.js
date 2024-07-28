@@ -1,4 +1,13 @@
 // Classes
+class DiceSet {
+  constructor(sides,numberOfDice = 1) {
+    this.sides = sides;
+  }
+
+  rollDice() {
+    
+  }
+}
 
 // Functions
 function test_function() {
