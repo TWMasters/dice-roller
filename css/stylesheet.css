@@ -1,0 +1,22 @@
+:root {
+  --parchment: hsl(45, 53%, 88%);
+  --writing: hsl(0, 92%, 25%);
+}
+
+body {
+  color: var(--writing);
+  background-color: var(--parchment);
+  font-family:'Modern Antiqua', 'Times New Roman', 'Serif';
+}
+
+header {
+  margin-bottom: 1.5em;
+}
+
+header h1 {
+  font-size: 48px;
+}
+
+header hr {
+  border-top: 2px solid var(--writing);
+}
