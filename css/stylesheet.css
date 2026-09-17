@@ -3,7 +3,14 @@
   --writing: hsl(0, 92%, 25%);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  position: relative;
+  min-height: 100vh;
   color: var(--writing);
   background-color: var(--parchment);
   font-family:'Modern Antiqua', 'Times New Roman', 'Serif';
@@ -19,6 +26,17 @@ header h1 {
 
 header hr {
   border-top: 2px solid var(--writing);
+}
+
+div.book {
+  position: absolute;
+  inset: 30px;
+  background-image: url("../img/spellbookBGECrawl.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 658px;
+  min-width: 1023px;
 }
 
 div.content {
